@@ -1,0 +1,192 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Chat Container */
+.chat-container {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* User Info */
+.user-info {
+  padding: 10px;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 1px solid black ;
+}
+
+/* Message Input */
+.message-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+}
+
+/* Send Button */
+.send-button {
+  width: 80%;
+  background-color: #0084ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Logout Button */
+.logout-button {
+  background-color: #fff;
+  color: #0084ff;
+  border: 1px solid #0084ff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Message Container */
+/* Message Container */
+.message-container {
+  max-height: 300px; /* Set a maximum height to enable scrolling */
+  overflow-y: auto; /* Enable vertical scrollbar */
+}
+
+/* Message List */
+.message-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Message */
+.message {
+  margin-bottom: 10px;
+}
+
+/* Message Content */
+.message-content {
+  display: flex;
+  align-items: center;
+}
+
+/* User Avatar */
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Message Text */
+.message-text {
+  padding: 8px 12px;
+  background-color: black;
+  border-radius: 20px;
+}
+/* Login Container */
+/* Login Container */
+.chat-container {
+  width: 300px; /* Điều chỉnh kích thước theo nhu cầu */
+  margin: auto; /* Canh giữa */
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.title-login {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black; /* Màu chữ đen */
+}
+
+.title-dangnhap {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black; /* Màu chữ đen */
+}
+
+
+.login-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Màu nền của nút */
+  color: #fff; /* Màu chữ của nút */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Màu nền của nút khi di chuột vào */
+}
+.input-text {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: white;
+  color: #000;
+}
+
+/* Placeholder styles */
+.input-text::placeholder {
+  color: black; /* Placeholder color */
+}
+
+/* Focus styles */
+.input-text:focus {
+  outline: none;
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box-shadow on focus */
+}
